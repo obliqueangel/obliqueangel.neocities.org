@@ -1,0 +1,65 @@
+@font-face {
+  font-family: angel;
+  src: url('/assets/font/AngelicWar.ttf');
+}
+::-webkit-scrollbar {display: none;} * {-ms-overflow-style: none;scrollbar-width: none;}
+html {background-color: #beccd0;background-image: url(/assets/bg/cloud.jpg);}
+body {
+  width: 500px;
+  margin: 350px auto;
+  padding: 100px 5px 5px;
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  color: #1a2b5f;
+  background-color: #e8edfb;
+  background-image: linear-gradient( #e8edfb 50%, rgb(214, 221, 238));
+  background-clip: padding-box;
+  border: 20px solid transparent;
+  border-image: url('/graphics/other/border_cloud.png') 30 round;
+}
+header {text-align: right;}
+h1 {
+  position: absolute;
+  font-size: 70px;
+  font-weight: normal;
+  font-family: angel;
+  line-height: 50px;
+  text-wrap: nowrap;
+  color: #f3faff;
+  text-shadow: 2px 1px #475c74, -1px -1px #475c74, 5px 3px 5px #202760bb;
+}
+h1 span {color: #cbe2f7;}
+h2, h3 {font-weight: normal;}
+h3 {font-size: 1.3em;}
+summary h2, summary h3 {display: inline-block;}
+::selection {color: #e8edfb;background-color: #365894;}
+a {color: #0a579f;}
+li {list-style-type: "- ";}
+iframe {border: none;}
+details {cursor: pointer;}
+time {font-weight: bold;}
+#floater-1 {
+  width: 700px;
+  height: 500px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translate(-65%, 0);
+  z-index: -1;
+  background-image: url(assets/aimee-floater.png);
+}
+#floater-2 {
+  width: 400px;
+  height: 500px;
+  position: fixed;
+  bottom: -100px;
+  right: -50px;
+  z-index: 2;
+  pointer-events: none;
+  background-image: url(assets/aime-floater.png);
+}
+@media (max-width: 1000px) {
+  #floater-2 {
+    display: none;
+  }
+}
