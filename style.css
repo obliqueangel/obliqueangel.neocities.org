@@ -3,10 +3,11 @@
   src: url('/assets/font/AngelicWar.ttf');
 }
 html {
-  background-image: url('/assets/dummy.png'), linear-gradient(to right, #ecf7fd 35%, #070f36);
+  background-image: url('/assets/oa.png'), linear-gradient(to right, #ecf7fd 20%, #070f36);
   background-position: top right;
+  background-size: 900px, cover;
   background-repeat: no-repeat, repeat-y;
-  background-color: #213d58;
+  background-color: #10243d;
 }
 * {box-sizing: border-box;}
 body {
@@ -46,7 +47,7 @@ header {
     font-size: 1.9rem;
     font-style: italic;
     text-wrap: nowrap;
-    text-shadow: 5px -7px #7299d49c;
+    text-shadow: 5px -7px #7299d47a;
   }
 #container {display: flex;height: min-content;}
 nav {
@@ -107,8 +108,7 @@ time {font-weight: bold;}
 iframe {border: none;}
 p {margin: 0 3px 7px;}
 li {list-style-type: "- ";}
-summary > h3 {display: inline;background: none;}
+summary {cursor: pointer;}
+summary > h3 {display: inline;background: none;border: none;}
 hr {border: 2px #2a4469 dotted;}
-a {
-  color: #91c8ff;
-}
+a {color: #91c8ff;}
