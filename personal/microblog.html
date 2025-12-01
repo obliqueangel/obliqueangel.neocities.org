@@ -10,8 +10,9 @@
 <style>
   iframe {
     width: 100%;
-    height: 500px;
+    height: 100vh;
     margin-top: 5px;
+    background-color: #daecffce;
   }
 </style>
 </head>
@@ -21,8 +22,8 @@
     <main>
     <h1>Microblog</h1>
     <div class="a">
-      <section>This microblog is powered by <a target="_blank" href="https://nikki.top/">Nikki</a>. I'm a lot less filtered here.</section>
-      <iframe src="https://nikki.top/api.php?id=110&limit=100000"></iframe>
+      This microblog is powered by <a target="_blank" href="https://nikki.top/">Nikki</a>. I'm a lot less filtered here.
+      <iframe src="https://nikki.top/api.php?id=110&limit=100000&color=#fff"></iframe>
     </div>
     </main>
     <nav id="nav-placeholder"><script>$.get("/nav.html", function(data){$("#nav-placeholder").replaceWith(data);});</script></nav>

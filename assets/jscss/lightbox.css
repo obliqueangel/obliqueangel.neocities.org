@@ -26,4 +26,4 @@ body.lb-disable-scrolling{overflow:hidden}
 .lb-data .lb-number{display:block;clear:left;padding-bottom:1em;font-size:12px;color:#999}
 .lb-data .lb-close{display:block;float:right;width:30px;height:30px;background:url(../close.png) top right no-repeat;text-align:right;outline:0;opacity:.7;-webkit-transition:opacity .2s;-moz-transition:opacity .2s;-o-transition:opacity .2s;transition:opacity .2s}
 .lb-data .lb-close:hover{cursor:pointer;opacity:1}
-img {width: 140px;height: 140px;object-fit: cover;}
+a > img {width: 140px;height: 140px;object-fit: cover;}
